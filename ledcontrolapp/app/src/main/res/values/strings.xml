@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ledcontrolapp</string>
+    <string name="led1_name">Led1</string>
+    <string name="led2_name">Led2</string>
+    <string name="led3_name">Led3</string>
+    <string name="led4_name">Led4</string>
+    <string name="button_value">TriggerHal</string>
 </resources>
