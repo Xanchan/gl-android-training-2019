@@ -7,3 +7,6 @@ PRODUCT_PACKAGES += \
 
 DEVICE_MANIFEST_FILE += \
    vendor/gl/interfaces/manifest.xml
+
+TARGET_FS_CONFIG_GEN += \
+   vendor/gl/config/config.fs

@@ -1,8 +1,8 @@
 service vendor.globallogic.ledcontrol-1-0 /system/vendor/bin/hw/vendor.globallogic.ledcontrol@1.0-service.hikey960
     interface vendor.globallogic.ledcontrol@1.0::ILedControl default
     class hal
-    user system
-    group system
+    user vendor_ledcontrol
+    group vendor_ledcontrol
 
     # will not be restarted if it exits until it is requested to be restarted
     oneshot
@@ -10,3 +10,12 @@ service vendor.globallogic.ledcontrol-1-0 /system/vendor/bin/hw/vendor.globallog
     # will only be started when requested
     disabled
 
+on post-fs-data
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led1/trigger
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led1/brightness
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led2/trigger
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led2/brightness
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led3/trigger
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led3/brightness
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led4/trigger
+    chown vendor_ledcontrol vendor_ledcontrol /sys/class/leds/user_led4/brightness
