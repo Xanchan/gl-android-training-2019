@@ -1,0 +1,8 @@
+/*
+ * Globallogic Inc. 2019 All rughts received
+ */
+ 
+hidl_package_root {
+    name: "vendor.globallogic",
+    path: "vendor/gl/interfaces",
+}

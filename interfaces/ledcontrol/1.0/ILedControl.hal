@@ -1,0 +1,34 @@
+/*
+ * Globallogic Inc. 2019 All rughts received
+ */
+
+package vendor.globallogic.ledcontrol@1.0;
+
+
+/**
+ * ILedControl interface
+ */
+interface ILedControl {
+
+    /**
+     * LedControl initialization.
+     *
+     * @return result 0 if successful, nonzero otherwise.
+     */
+    initializeLedControl() generates (int32_t result);
+
+    /**
+     * LedControl setLedState.
+     *
+     * @return result 0 if successful, nonzero otherwise.
+     */
+    setLedState(Leds led, LedState state) generates (int32_t result);
+
+    /**
+     * LedControl terminate.
+     *
+     * @return result 0 if successful, nonzero otherwise.
+     */
+    terminateLedControl() generates (int32_t result);
+
+};
