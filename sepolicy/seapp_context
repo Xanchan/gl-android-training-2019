@@ -1,0 +1,6 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+user=_app domain=ledcontrolservice seinfo=platform name=com.glandroid2019.ledcontrolservice type=ledcontrolservice_data

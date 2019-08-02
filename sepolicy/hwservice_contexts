@@ -1,0 +1,6 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+vendor.globallogic.ledcontrol::ILedControl u:object_r:hal_ledcontrol_hwservice:s0

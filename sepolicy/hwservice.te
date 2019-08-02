@@ -1,0 +1,6 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+type hal_ledcontrol_hwservice, hwservice_manager_type;

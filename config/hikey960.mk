@@ -8,5 +8,8 @@ PRODUCT_PACKAGES += \
 DEVICE_MANIFEST_FILE += \
    vendor/gl/interfaces/manifest.xml
 
+BOARD_SEPOLICY_DIRS += \
+   vendor/gl/sepolicy
+
 TARGET_FS_CONFIG_GEN += \
    vendor/gl/config/config.fs

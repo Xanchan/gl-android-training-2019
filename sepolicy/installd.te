@@ -1,0 +1,6 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+allow installd ledcontrolservice_data:dir { relabelto rw_dir_perms setattr rmdir };

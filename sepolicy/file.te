@@ -1,0 +1,9 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+type hal_ledcontrol_default_exec, exec_type, vendor_file_type, file_type;
+# type setterapp_app_data, file_type;
+type myservice_app_data, file_type;
+type ledcontrolservice_data, file_type;

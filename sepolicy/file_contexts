@@ -1,0 +1,6 @@
+#
+# COPYRIGHT (C) 2019 GLOBALLOGIC INC
+# ALL RIGHTS RESERVED
+#
+
+/(vendor|system/vendor)/bin/hw/vendor\.globallogic\.ledcontrol@1\.0-service\.hikey960 u:object_r:hal_ledcontrol_default_exec:s0
